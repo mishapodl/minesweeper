@@ -1,0 +1,53 @@
+body {
+   /* background-color: #aaa; */
+   font-size: 24px;
+}
+
+table {
+   border-collapse: collapse;
+}
+
+table td {
+   border: 1px solid black;
+   width: 37px;   
+   height: 30px;   
+   text-align: center;
+   padding-top: 7px;
+}
+
+td.colorRed {
+   background: rgb(255, 255, 255);
+}
+
+td.colorRed_1 {
+   background: rgb(0, 247, 0);
+}
+td.colorRed_2 {
+   background: rgb(0, 217, 255);
+}
+td.colorRed_3 {
+   background: rgb(255, 153, 0);
+}
+td.colorRed_4 {
+   background: rgb(123, 34, 158)
+}
+td.colorRed_5 {
+   background: rgb(225, 0, 255);
+}
+td.colorRed_6 {
+   background: rgb(145, 27, 27);
+}
+td.colorRed_7 {
+   background: rgb(83, 26, 148);
+}
+td.colorRed_8 {
+   background: rgb(90, 9, 9);
+}
+
+table.chngColor td {
+   background: rgb(255, 0, 0);
+}
+
+table.chngColor td.colorRed {
+   background: #fff;
+}
